@@ -13,3 +13,9 @@ as it stays in JS land.
 
 Function originally taken from https://github.com/ariya/phantomjs/issues/11289
 @runarberg and modified slightly.
+
+Install for dev via:
+
+- `npm install basic-keyboard-event-polyfill --dev`
+- `yarn add basic-keyboard-event-polyfill --dev`
+
