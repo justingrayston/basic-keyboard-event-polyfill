@@ -12,7 +12,9 @@ Having this be a package you can just require, means your linting doesn't touch 
 as it stays in JS land.
 
 Function originally taken from https://github.com/ariya/phantomjs/issues/11289
-@runarberg and modified slightly.
+@runarberg (which was taken from [DOM-Keyboard-Event-Level-3-polyfill](https://github.com/termi/DOM-Keyboard-Event-Level-3-polyfill/blob/0.4/DOMEventsLevel3.shim.js)
+and modified slightly. I don't actually need the full polyfill hence a this light weight JS that can be loaded via NPM outside
+of the tslint and typechecking.
 
 Install for dev via:
 
