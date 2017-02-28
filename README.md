@@ -18,6 +18,6 @@ of the tslint and typechecking.
 
 Install for dev via:
 
-- `npm install basic-keyboard-event-polyfill --dev`
+- `npm install basic-keyboard-event-polyfill --save-dev`
 - `yarn add basic-keyboard-event-polyfill --dev`
 
