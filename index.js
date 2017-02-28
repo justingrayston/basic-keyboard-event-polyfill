@@ -1,7 +1,7 @@
 (function() {
   // critically in Phantom JS it is an object so can't be used as a constructor.
   if (typeof KeyboardEvent !== 'function') {
-    global.window.KeyboardEvent = function(eventType, init) {
+    window.KeyboardEvent = function(eventType, init) {
       var modKeys = [
         init.ctrlKey ? 'Control' : '',
         init.shiftKey ? 'Shift' : '',
