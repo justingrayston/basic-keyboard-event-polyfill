@@ -4,7 +4,7 @@
   "description": "A simple polyfill for KeyboardEvent to help PhantomJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.config.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,19 @@
   "keywords": [
     "keyboardevent",
     "phantomjs",
-    "polyfil"
+    "polyfill"
   ],
   "author": "Justin Grayston",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/justingrayston/basic-keyboard-event-polyfill/issues"
   },
-  "homepage": "https://github.com/justingrayston/basic-keyboard-event-polyfill#readme"
+  "homepage": "https://github.com/justingrayston/basic-keyboard-event-polyfill#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
+  },
+  "dependencies": {}
 }
