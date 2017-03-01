@@ -1,6 +1,6 @@
 {
   "name": "basic-keyboard-event-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple polyfill for KeyboardEvent to help PhantomJS",
   "main": "index.js",
   "scripts": {
