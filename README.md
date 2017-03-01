@@ -1,5 +1,7 @@
 # basic-keyboard-event-polyfill
 
+[![Build Status](https://travis-ci.org/justingrayston/basic-keyboard-event-polyfill.svg?branch=master)](https://travis-ci.org/justingrayston/basic-keyboard-event-polyfill)
+
 A simple polyfill to help PhantomJS out.
 
 Typlically in JS this is pretty easy to sort out in tests, by creating the event
